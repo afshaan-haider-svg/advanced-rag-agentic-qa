@@ -1,0 +1,31 @@
+{
+  "total_questions": 15,
+  "successful_requests": 15,
+  "failed_requests": 0,
+  "configuration": {
+    "top_k": 8,
+    "rerank_top_n": 4,
+    "similarity_threshold": 0.3,
+    "use_mmr": true,
+    "mmr_lambda": 0.7
+  },
+  "before_reranking": {
+    "retrieval_hits": 15,
+    "retrieval_hit_rate": 1.0,
+    "mrr": 1.0
+  },
+  "after_reranking": {
+    "retrieval_hits": 15,
+    "retrieval_hit_rate": 1.0,
+    "mrr": 1.0
+  },
+  "comparison": {
+    "mrr_absolute_change": 0.0,
+    "mrr_percent_change": 0.0,
+    "queries_improved": 0,
+    "queries_unchanged": 15,
+    "queries_worsened": 0,
+    "queries_missing_after_reranking": 0
+  },
+  "average_latency_seconds": 0.2879
+}

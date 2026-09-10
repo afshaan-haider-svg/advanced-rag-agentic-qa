@@ -1,0 +1,11 @@
+.git
+.venv
+.env
+frontend/.git
+frontend/node_modules
+frontend/.next
+data/chroma
+data/uploads
+__pycache__
+*.pyc
+.pytest_cache

@@ -1,0 +1,36 @@
+{
+  "evaluation_type": "chunk_level_expected_answer_overlap",
+  "total_questions": 15,
+  "successful_requests": 15,
+  "failed_requests": 0,
+  "configuration": {
+    "top_k": 8,
+    "rerank_top_n": 8,
+    "similarity_threshold": 0.3,
+    "use_mmr": true,
+    "mmr_lambda": 0.7
+  },
+  "before_reranking": {
+    "mrr": 0.6262,
+    "average_relevant_chunk_rank": 3.0,
+    "relevant_chunk_recall_at_4": 0.7333
+  },
+  "after_reranking": {
+    "mrr": 0.6433,
+    "average_relevant_chunk_rank": 3.0,
+    "relevant_chunk_recall_at_4": 0.6667
+  },
+  "comparison": {
+    "mrr_change": 0.0171,
+    "average_rank_change": 0.0,
+    "recall_at_4_change": -0.0667,
+    "queries_improved": 4,
+    "queries_unchanged": 7,
+    "queries_worsened": 4
+  },
+  "latency": {
+    "average_retrieval_ms": 54.91,
+    "average_reranking_ms": 214.98,
+    "average_total_ms": 273.29
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "experiment": "RecursiveCharacterTextSplitter chunk-size and overlap comparison",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "evaluation_questions": 15,
+  "top_k": 8,
+  "recall_k": 4,
+  "configurations": [
+    {
+      "name": "small",
+      "chunk_size": 300,
+      "chunk_overlap": 50,
+      "total_chunks": 176,
+      "mrr": 0.3338,
+      "recall_at_4": 0.5333,
+      "source_hit_at_8": 1.0,
+      "average_relevant_rank": 24.6667,
+      "average_query_latency_ms": 15.84,
+      "balanced_quality_score": 0.4136
+    },
+    {
+      "name": "current",
+      "chunk_size": 500,
+      "chunk_overlap": 100,
+      "total_chunks": 102,
+      "mrr": 0.5115,
+      "recall_at_4": 0.6667,
+      "source_hit_at_8": 1.0,
+      "average_relevant_rank": 5.6667,
+      "average_query_latency_ms": 13.21,
+      "balanced_quality_score": 0.5736
+    },
+    {
+      "name": "large",
+      "chunk_size": 800,
+      "chunk_overlap": 150,
+      "total_chunks": 64,
+      "mrr": 0.6502,
+      "recall_at_4": 0.7333,
+      "source_hit_at_8": 1.0,
+      "average_relevant_rank": 3.8667,
+      "average_query_latency_ms": 16.84,
+      "balanced_quality_score": 0.6834
+    }
+  ],
+  "recommended_configuration": {
+    "name": "large",
+    "chunk_size": 800,
+    "chunk_overlap": 150,
+    "reason": "Highest balanced score across MRR and Recall@4 among the tested configurations."
+  }
+}

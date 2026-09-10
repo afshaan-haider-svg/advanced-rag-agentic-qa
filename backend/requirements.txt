@@ -1,0 +1,27 @@
+# Phase 1: Core Foundation
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.20
+
+# Phase 2: Document Ingestion Pipeline
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+pypdf>=5.0.0
+python-docx>=1.1.0
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+
+# Phase 4: LangGraph Agentic Workflow & LLM Integration
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+langchain-google-genai>=2.0.0
+
+
+# Phase 6: Production Database & Cache
+sqlalchemy>=2.0.0
+psycopg[binary]>=3.2.0
+redis>=5.0.0

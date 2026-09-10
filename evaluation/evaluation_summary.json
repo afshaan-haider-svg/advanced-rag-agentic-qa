@@ -1,0 +1,14 @@
+{
+  "total_questions": 15,
+  "successful_requests": 15,
+  "failed_requests": 0,
+  "retrieval_source_hits": 15,
+  "retrieval_hit_rate": 1.0,
+  "average_answer_precision": 0.3626,
+  "average_answer_recall": 0.8477,
+  "average_answer_f1": 0.4932,
+  "average_faithfulness_proxy": 1.0,
+  "average_latency_seconds": 21.6603,
+  "minimum_latency_seconds": 3.758,
+  "maximum_latency_seconds": 205.268
+}

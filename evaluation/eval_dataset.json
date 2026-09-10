@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "What is Artificial Intelligence in Education?",
+    "expected_answer": "Artificial Intelligence in Education refers to the use of AI technologies to support teaching, learning, assessment, administration, and educational research.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 2,
+    "question": "How does AI support personalized learning?",
+    "expected_answer": "AI can analyze student performance, quiz results, mistakes, learning progress, and areas of weakness, then recommend suitable learning materials and additional practice according to individual needs.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 3,
+    "question": "What can an Intelligent Tutoring System provide to students?",
+    "expected_answer": "An Intelligent Tutoring System can provide hints, explanations, practice questions, feedback, additional examples, and difficulty adjustments.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 4,
+    "question": "How can AI help teachers save time?",
+    "expected_answer": "AI can automate or assist with repetitive tasks such as basic grading, quiz generation, question generation, content organization, lesson preparation, and administrative assistance.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 5,
+    "question": "What are the main challenges of Artificial Intelligence in education?",
+    "expected_answer": "The main challenges include academic dishonesty, overdependence on technology, incorrect information, privacy concerns, algorithmic bias, reduced human interaction, unequal access to technology, and the need for teacher training.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 6,
+    "question": "Why is academic dishonesty a concern when using AI in education?",
+    "expected_answer": "Students may use AI to complete assignments without actually learning the material, creating concerns about cheating, plagiarism, lack of learning, and unfair assessment.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 7,
+    "question": "Why should AI not completely replace teachers?",
+    "expected_answer": "Teachers provide motivation, emotional support, mentorship, communication, social interaction, critical thinking guidance, judgment, and other human qualities that AI cannot fully replace.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 8,
+    "question": "What is the recommended future relationship between students, teachers, and AI?",
+    "expected_answer": "The future of education should involve collaboration between students, teachers, and AI, with AI acting as a powerful educational assistant rather than replacing teachers.",
+    "expected_document": "Artificial Intelligence in Education.docx",
+    "category": "education"
+  },
+  {
+    "id": 9,
+    "question": "How is AI used in medical imaging?",
+    "expected_answer": "AI can analyze medical images such as X-rays, CT scans, MRI scans, ultrasound, mammography, PET scans, and retinal images to identify or highlight suspicious regions that may require further professional examination.",
+    "expected_document": "ai_healthcare_rag_test.txt.docx",
+    "category": "healthcare"
+  },
+  {
+    "id": 10,
+    "question": "What is predictive analytics in healthcare?",
+    "expected_answer": "Predictive analytics uses historical and current patient data to estimate possible future outcomes such as hospital readmission, disease progression, patient deterioration, complications, missed appointments, or other risks.",
+    "expected_document": "ai_healthcare_rag_test.txt.docx",
+    "category": "healthcare"
+  },
+  {
+    "id": 11,
+    "question": "How can Natural Language Processing help in healthcare?",
+    "expected_answer": "NLP can process unstructured healthcare text such as doctors' notes, patient records, reports, discharge summaries, prescriptions, laboratory reports, and clinical documents, and transform them into useful structured information or summaries.",
+    "expected_document": "ai_healthcare_rag_test.txt.docx",
+    "category": "healthcare"
+  },
+  {
+    "id": 12,
+    "question": "How can AI assist with drug discovery?",
+    "expected_answer": "AI can analyze chemical structures and biological data, identify potentially useful compounds, predict molecular properties, prioritize promising candidates, and help researchers design experiments.",
+    "expected_document": "ai_healthcare_rag_test.txt.docx",
+    "category": "healthcare"
+  },
+  {
+    "id": 13,
+    "question": "What are the main challenges of Artificial Intelligence in healthcare?",
+    "expected_answer": "The main challenges include patient privacy, data security, biased training data, reliability, explainability, ethical responsibility, and the need for human oversight.",
+    "expected_document": "ai_healthcare_rag_test.txt.docx",
+    "category": "healthcare"
+  },
+  {
+    "id": 14,
+    "question": "Why is human oversight important in healthcare AI?",
+    "expected_answer": "AI should be treated as decision-support technology rather than an unquestionable authority. Healthcare professionals should review results, question predictions, consider patient-specific factors, correct errors, and make final clinical decisions where appropriate.",
+    "expected_document": "ai_healthcare_rag_test.txt.docx",
+    "category": "healthcare"
+  },
+  {
+    "id": 15,
+    "question": "What should be the future focus of AI in healthcare?",
+    "expected_answer": "The future should focus on human-AI collaboration and ensure AI systems are safe, reliable, useful, clinically validated, transparent, privacy-conscious, secure, ethical, and supported by human oversight.",
+    "expected_document": "ai_healthcare_rag_test.txt.docx",
+    "category": "healthcare"
+  }
+]
