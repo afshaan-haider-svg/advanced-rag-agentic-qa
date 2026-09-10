@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-const SESSION_ID = "frontend-test-session";
+const SESSION_ID = "final-demo-session";
 
 type Citation = {
   citation_number: number;
@@ -644,7 +644,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-xs text-slate-500">
                   <span className="h-2 w-2 rounded-full bg-cyan-400" />
-                  Session: frontend-test-session
+                  Session: final-submission-clean-2026
                 </div>
               </div>
             </div>
