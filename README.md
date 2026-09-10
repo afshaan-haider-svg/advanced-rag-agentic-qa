@@ -1,4 +1,4 @@
-# Advanced RAG & Agentic Document QA System
+﻿# Advanced RAG & Agentic Document QA System
 
 A production-oriented **Retrieval-Augmented Generation (RAG) and Agentic Document Question Answering system** built with LangChain, LangGraph, FastAPI, Next.js, ChromaDB, PostgreSQL, Redis, Docker, local Hugging Face embeddings, Cross-Encoder reranking, and Google Gemini.
 
@@ -666,7 +666,7 @@ PostgreSQL and Redis are integrated for production-oriented persistence and cach
 GitHub repository:
 
 ```text
-To be added after final repository push.
+https://github.com/afshaan-haider-svg/advanced-rag-agentic-qa
 ```
 
 ## Live Deployment
@@ -674,7 +674,7 @@ To be added after final repository push.
 Deployed application:
 
 ```text
-To be added after cloud deployment.
+Local Docker deployment completed successfully. Cloud deployment not included in the current submission.
 ```
 
 ---
